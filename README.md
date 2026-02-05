@@ -1,8 +1,8 @@
 # pboc-schema-tool
 
-pboc-schema-tool 是一个轻量的前端项目，用于管理、查看与验证与 PBOC（中国人民银行）相关的 schema/模板，并提供本地预览与示例数据生成功能（依据仓库现有文件做了合理推断，请在必要时调整）。
+[![CI](https://github.com/swinepig/pboc-schema-tool/actions/workflows/ci.yml/badge.svg)](https://github.com/swinepig/pboc-schema-tool/actions) [![version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/swinepig/pboc-schema-tool/releases) [![coverage](https://img.shields.io/badge/coverage-0%25-red.svg)](https://github.com/swinepig/pboc-schema-tool) [![demo](https://img.shields.io/badge/demo-gh-pages-brightgreen.svg)](https://swinepig.github.io/pboc-schema-tool/)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+pboc-schema-tool 是一个轻量的前端项目，用于管理、查看与验证与 PBOC（中国人民银行）相关的 schema/模板，并提供本地预览与示例数据生成功能（依据仓库现有文件做了合理推断，请在必要时调整）。
 
 ---
 
@@ -36,6 +36,12 @@ pboc-schema-tool 提供了一套用于集中管理和校验 PBOC 相关 schema �
 - 简单的示例数据生成器（如果仓库实现）
 - 零依赖静态部署：直接打开 HTML 文件即可使用，或通过任何静态服务器托管
 
+## 快速演示
+
+下面是一个项目界面示例（占位图）。请使用真实截图替换此占位图：
+
+![示例界面](data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='400'><rect width='100%25' height='100%25' fill='%23f6f8fa'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23999' font-size='24'>示例界面占位图 — 请替换为真实截图</text></svg>)
+
 ## 安装与运行
 
 该仓库基于静态前端（HTML），可以按以下任一方式运行：
@@ -62,7 +68,7 @@ pboc-schema-tool 提供了一套用于集中管理和校验 PBOC 相关 schema �
    # 浏览器访问 http://localhost:3000
    ```
 
-请根据仓库实际入口文件名（如 `index.html`、`example.html`）调整上述命令。
+请根据仓库实际入口文件名（如 `index.html`、`example.html`）调整上述��令。
 
 ## 使用示例
 
@@ -100,4 +106,4 @@ pboc-schema-tool 提供了一套用于集中管理和校验 PBOC 相关 schema �
 
 - swinepig
 
-如需联系：在 GitHub 上通过 issue 或 PR 联系维护者。
+如需联系：在 GitHub 上通过 issue 或 PR 联系维护者.
